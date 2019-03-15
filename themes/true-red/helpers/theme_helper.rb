@@ -1,4 +1,5 @@
 #coding: utf-8
+
 def render_breadcrumb
   breadcrumb = _("You are here: ")
 

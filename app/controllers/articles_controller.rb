@@ -1,4 +1,5 @@
 class ArticlesController < ContentController
+  helper :all
   before_filter :login_required, :only => [:preview]
   before_filter :auto_discovery_feed, :only => [:show, :index]
   before_filter :verify_config
