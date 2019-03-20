@@ -1,0 +1,14 @@
+GitHub Repo:
+https://github.com/anudeep-balusani/typo
+
+In the GitHub repo (considering you're in root):
+
+cucumber_log -> output of cucumber tests
+spec_log -> output of spec tests with coverage
+
+Heroku app:
+https://floating-mesa-20031.herokuapp.com/admin
+
+Admin Credentials:
+Login: admin
+Password: G4drSNr
