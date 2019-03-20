@@ -17,3 +17,12 @@ Feature: Write Articles
     Then I should see "Foobar"
     When I follow "Foobar"
     Then I should see "Lorem Ipsum"
+
+  Scenario: Successfully save categories
+    Given I am on the new categories page
+    When I fill in "category_name" with "first"
+    And I fill in "category_keywords" with "F"
+    And I press "Save"
+    Then I should see "Category was successfully saved."
+    And I should see "first"
+
